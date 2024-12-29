@@ -1,0 +1,96 @@
+body{
+    height: 100vh;
+}
+nav {
+    font-weight: bold;
+    background-color: rgb(44, 62, 80);
+    height: 90px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    z-index: 1050; 
+}
+
+#fixed {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1050; 
+}
+
+#modal-body,
+#modal-form {
+    z-index: 1051; 
+}
+.shrink{
+    height: 50px;
+    transition: height  .5s;
+    -webkit-transition: height  .5s;
+    -moz-transition: height  .5s;
+    -ms-transition: height  .5s;
+    -o-transition: height  .5s;
+ }
+.modal-backdrop {
+    z-index: 1040 !important; 
+}
+
+#contact-btn {
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+label{
+    font-weight: 400;
+}
+.content{
+
+    background-color: rgb(26, 188, 156);
+    height: 100%;
+}
+.inner-content{
+    position: relative;
+    top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: rgb(26, 188, 156);
+    height: 100%;
+}
+.content h1{
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+}
+.content .inner-content img{
+width: 300px;
+height: 300px;
+}
+.seperator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+i{
+    color: white;
+    font-size: 32px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+span{
+    width: 120px;
+    background-color: white;
+    height: 3px;
+}
+.carousel,.carousel img{
+    height: 400px;
+}
+footer{
+    gap: 30px;
+    color: white;
+    flex-direction: column;
+    background-color: rgb(44, 62, 80);
+    height: 40%;
+}
+

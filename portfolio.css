@@ -1,0 +1,58 @@
+body{
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ .main-content{
+    position: relative;
+    top:80px;
+    height: 100%;
+ }
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.seperator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120%;
+}
+.portfolio h1{
+font-size:3.5rem
+;}
+#star{
+    font-size: 32px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: black;
+}
+span{
+    width: 120px;
+    height: 3px;
+    background-color: black;
+}
+
+.modal-img{
+    width: 350px;
+    height: 200px;
+}
+footer{
+    margin-top: 40px;
+    gap: 30px;
+    color: white;
+    flex-direction: column;
+    background-color: rgb(44, 62, 80);
+}
+#contact-btn{
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+label{
+    font-weight: 400;
+}
